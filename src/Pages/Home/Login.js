@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+
 import { useSignInWithGoogle, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init'
 import { useForm } from "react-hook-form";
@@ -123,7 +123,7 @@ const Login = () => {
                         </div>
                         <input />
 
-                        {signError}
+                   {signError}
 
                         <input className='btn w-full max-w-xs' type="submit" value="login" />
                     </form>

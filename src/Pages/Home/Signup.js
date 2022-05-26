@@ -2,8 +2,8 @@ import React from 'react';
 import { useSignInWithGoogle, useCreateUserWithEmailAndPassword,useUpdateProfile} from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init'
 import { useForm } from "react-hook-form";
-import { Link, useLocation, useNavigate } from 'react-router-dom';
-import useToken from '../../hooks/useToken';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 
 const Signup = () => {
@@ -19,7 +19,7 @@ const Signup = () => {
 
       const [updateProfile, updating, error2] = useUpdateProfile(auth);
 
-      const [token] = useToken(user || guser);
+    //   const [token] = useToken(user || guser);
 
       const navigate = useNavigate();
 
@@ -34,7 +34,7 @@ const Signup = () => {
     }
 
     if (user || guser) {
-        console.log(user || guser);
+       console.log(user || guser)
         navigate('/home')
     }
    
@@ -44,7 +44,7 @@ const Signup = () => {
         console.log(data);
          await createUserWithEmailAndPassword(data.email, data.password)
         await updateProfile({ displayName: data.name});
-        console.log('update done')
+        // console.log('update done')
       
     }
     return (
