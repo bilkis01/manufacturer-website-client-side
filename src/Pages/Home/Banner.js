@@ -12,9 +12,13 @@ const Banner = () => {
                         <p className="mb-5 text-4xl text-center">NEED</p>
                         <p className="mb-5 text-4xl text-center">NEW</p>
                         <p className="mb-5 text-4xl text-center">TOOLS ?</p>
+                        <br />
+                        
                        
                     </div>
+                    
                 </div>
+                
             </div>
 
 
