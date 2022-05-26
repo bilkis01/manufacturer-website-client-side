@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const Tools = ({ tool }) => {
-    const { name, img, available,minimum, Description, price, _id } = tool;
+    const { name, img, available, minimum, Description, price, _id } = tool;
     return (
         <div>
             <div className="card lg:mx-w bg-base-100 shadow-xl">
@@ -17,7 +17,7 @@ const Tools = ({ tool }) => {
                     
                     <div className="card-actions justify-end">
                         
-                    <Link className='btn bg-green-400 text-white' to={`/shop/${_id}`}>Purchase</Link>
+                    <Link className='btn bg-green-400 text-white' to={`/shop/${_id}`}>PURCHASE</Link>
                     </div>
                 </div>
             </div>
