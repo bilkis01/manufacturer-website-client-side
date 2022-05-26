@@ -3,14 +3,14 @@ import { useQuery } from 'react-query';
 import UserRow from './UserRow';
 
 const User = () => {
-   
-    const {data: users, isLoading}= useQuery('users', ()=> fetch('https://sleepy-escarpment-69683.herokuapp.com/user').then(res=>res.json()))
-    if(isLoading){
+
+    const { data: users, isLoading } = useQuery('users', () => fetch('https://sleepy-escarpment-69683.herokuapp.com/user').then(res => res.json()))
+    if (isLoading) {
         return <button className="btn btn-square  loading"></button>
     }
 
 
-  
+
 
     return (
         <div>
@@ -28,12 +28,12 @@ const User = () => {
                         </tr>
                     </thead>
                     <tbody>
-                       {
-                           users.map(user=><UserRow
-                           key={user._id}
-                           user={user}
-                           ></UserRow>)
-                       }
+                        {
+                            users.map(user => <UserRow
+                                key={user._id}
+                                user={user}
+                            ></UserRow>)
+                        }
                     </tbody>
                 </table>
             </div>
