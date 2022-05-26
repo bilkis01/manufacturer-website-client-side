@@ -23,7 +23,7 @@ const Products = () => {
                     tools.map(tool => <Tools
                         key={tool._id}
                         tool={tool}
-    
+
                     ></Tools>)
                 }
             </div>

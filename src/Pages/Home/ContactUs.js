@@ -16,7 +16,7 @@ const ContactUs = () => {
     
               <input type="email" placeholder="Email Address" className="input w-full max-w-xs" />
               <br /><br />
-              <input type="text" placeholder="Subject" className="input w-full max-w-xs" />
+              <input type="email" placeholder="Subject" className="input w-full max-w-xs" />
               <br /><br />
               <textarea className="textarea" id="" cols="60" rows="5" placeholder="Your message"></textarea>
               <br />
