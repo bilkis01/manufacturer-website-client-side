@@ -1,0 +1,62 @@
+[
+    {
+        "_id": 1,
+        "name":"Electric Drill",
+        "available":1000,
+        "minimum":150,
+        "price": 1000,
+        "Description":"An electric drill is a drill which is driven by an electric motor. The invention of the electric drill is credited to Arthur James ",
+        "img":"https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-800x800.jpg"
+    },
+       
+    {
+        "_id": 2,
+        "name":"Power Saw",
+        "available":1000,
+        "minimum":90,
+        "price": 1500,
+        "Description":"A power saw is a portable mechanical machine used for both industrial and DIY projects. ",
+        "img":"https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-3-800x800.jpg"
+    },
+       
+    {
+        "_id": 3,
+        "name":"Safety Helmet",
+        "available":500,
+        "minimum":20,
+        "price": 150,
+        "Description":"Safety helmets can prevent or minimise injuries to the head and brain, protecting against falling objects or debris",
+        "img":"https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-6-800x800.jpg"
+    },
+       
+    {
+        "_id": 4,
+        "name":"Duct Tape",
+        "available":800,
+        "minimum":40,
+        "price": 80,
+        "Description":"tap, a screwlike tool that has threads like a bolt and two, three, or four longitudinal flutes or grooves and that is used to cut screw threads in a nut or a hole.",
+        "img":"https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-7-800x800.jpg"
+    },
+       
+    {
+        "_id": 5,
+        "name":"Hammer",
+        "available":1100,
+        "minimum":90,
+        "price": 250,
+        "Description":"A hammer is a tool, most often a hand tool, consisting of a weighted  fixed to a long handle that is swung to deliver an impact to a small area of an object. ",
+        "img":"https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-11-800x800.jpg"
+    },
+       
+    {
+        "_id": 6,
+        "name":"Grinder",
+        "available":900,
+        "minimum":70,
+        "price": 1250,
+        "Description":"A grinding machine, often shortened to grinder, is one of power tools or machine tools used for grinding. It is a type of machining using ",
+        "img":"https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-13-800x800.jpg"
+    }
+       
+]
