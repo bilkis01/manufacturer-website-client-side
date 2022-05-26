@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSignInWithGoogle, useCreateUserWithEmailAndPassword,useUpdateProfile} from 'react-firebase-hooks/auth';
+import { useSignInWithGoogle, useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init'
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from 'react-router-dom';
@@ -15,13 +15,13 @@ const Signup = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth);
 
-      const [updateProfile, updating, error2] = useUpdateProfile(auth);
+    const [updateProfile, updating, error2] = useUpdateProfile(auth);
 
     //   const [token] = useToken(user || guser);
 
-      const navigate = useNavigate();
+    const navigate = useNavigate();
 
     let signError;
 
@@ -34,18 +34,18 @@ const Signup = () => {
     }
 
     if (user || guser) {
-       console.log(user || guser)
+        console.log(user || guser)
         navigate('/home')
     }
-   
-    
 
-    const onSubmit =async  data => {
+
+
+    const onSubmit = async data => {
         console.log(data);
-         await createUserWithEmailAndPassword(data.email, data.password)
-        await updateProfile({ displayName: data.name});
+        await createUserWithEmailAndPassword(data.email, data.password)
+        await updateProfile({ displayName: data.name });
         // console.log('update done')
-      
+
     }
     return (
         <div className='flex justify-center items-center h-screen'>
