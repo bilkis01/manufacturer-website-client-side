@@ -12,7 +12,7 @@ const AddProduct = () => {
         const img = event.target.img.value;
 
         const tools = {
-            name, Description, available, minimum, price, img
+            name ,Description,available,minimum,price,img
         }
 
 
@@ -28,7 +28,7 @@ const AddProduct = () => {
             .then((response) => response.json())
             .then((json) =>{
                 toast.success('product added successfully')
-                event.target.reset()
+                event.target.reset();
             });
     }
 

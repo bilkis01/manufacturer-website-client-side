@@ -10,7 +10,7 @@ const CheckoutForm = ({ orders }) => {
   const [cardError, setCardError] = useState('');
   const [clientSecret, setClientSecret] = useState('');
 
-  // const { totalPrice } = orders;
+  const { totalPrice } = orders;
 
 
   // useEffect(() => {
