@@ -33,44 +33,42 @@ const AddProduct = () => {
     }
 
 
-
-
     return (
         <div>
             <form onSubmit={addProduct}>
                 <div class="form-control w-full max-w-xs">
                     <label class="label">
-                        <span class="label-text">Product Name</span>
+                        <span class="label-text font-bold">Product Name</span>
                     </label>
                     <input type="text" required name='name' placeholder="Product Name" class="input input-bordered w-full max-w-xs" />
                 </div>
                 <div class="form-control w-full max-w-xs">
                     <label class="label">
-                        <span class="label-text">Description</span>
+                        <span class="label-text font-bold">Description</span>
                     </label>
                     <input type="text" required name='Description' placeholder="description" class="input input-bordered w-full max-w-xs" />
                 </div>
                 <div class="form-control w-full max-w-xs">
                     <label class="label">
-                        <span class="label-text">Quantity</span>
+                        <span class="label-text font-bold">Quantity</span>
                     </label>
                     <input type="number" required name='available' placeholder="quantity" class="input input-bordered w-full max-w-xs" />
                 </div>
                 <div class="form-control w-full max-w-xs">
                     <label class="label">
-                        <span class="label-text">Minimum Quantity</span>
+                        <span class="label-text font-bold">Minimum Quantity</span>
                     </label>
                     <input type="number" required name='minimum' placeholder="Minimum Quantity" class="input input-bordered w-full max-w-xs" />
                 </div>
                 <div class="form-control w-full max-w-xs">
                     <label class="label">
-                        <span class="label-text">Price</span>
+                        <span class="label-text font-bold">Price</span>
                     </label>
                     <input type="number" required name='price' placeholder="Price" class="input input-bordered w-full max-w-xs" />
                 </div>
                 <div class="form-control w-full max-w-xs">
                     <label class="label">
-                        <span class="label-text">Image</span>
+                        <span class="label-text font-bold">Image</span>
                     </label>
                     <input type="text" required name='img' placeholder="image Url" class="input input-bordered w-full max-w-xs" />
                 </div>
