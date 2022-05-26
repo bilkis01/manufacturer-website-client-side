@@ -5,9 +5,10 @@ import auth from '../../firebase.init';
 
 const ReaquireAuth = ({children}) => {
 
-    const [user, loading] = useAuthState(auth);
+    
+    const [user,loading] = useAuthState(auth)
 
-    const location = useLocation();
+    const location = useLocation()
 
     if(loading){
         return  <button className="btn btn-square  loading"></button>
