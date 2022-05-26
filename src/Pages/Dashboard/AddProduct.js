@@ -70,10 +70,10 @@ const AddProduct = () => {
                     <label class="label">
                         <span class="label-text font-bold">Image</span>
                     </label>
-                    <input type="text" required name='img' placeholder="image Url" class="input input-bordered w-full max-w-xs" />
+                    <input type="text" required name='img' placeholder="image url" class="input input-bordered w-full max-w-xs" />
                 </div>
                 <br />
-                <button class="btn">Button</button>
+                <button class="btn">Add</button>
             </form>
         </div>
     );

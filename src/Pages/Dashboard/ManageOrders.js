@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { useQuery } from 'react-query';
 import OrderRow from './OrderRow';
 
 const ManageOrders = () => {
     const [allOrder, setAllOrders] = useState([]);
-    console.log(allOrder);
+    // console.log(allOrder);
 
     
   useEffect(() => {
